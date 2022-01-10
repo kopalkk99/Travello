@@ -46,6 +46,6 @@ def showRegistrationForm(req):
 def showLoginPage(req):
     return render(req,'login.html')
 
-def logout(req):
-    auth.logout(req)
-    return redirect('/')
+#def logout(req):
+ #   auth.logout(req)
+  #  return redirect('/')
