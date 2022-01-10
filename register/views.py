@@ -48,4 +48,6 @@ def showLoginPage(req):
 
 def logout(req):
     auth.logout(req)
+    print("new feature implemented")
     return redirect('/')
+
